@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+
+/* Universal */
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  color: #424242;
+}
+
+a {
+  font-weight: bold;
+  color: #BF360C;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #F04B19;
+}
+
+.btn {
+  background: #BF360C;
+  color: #FFF;
+  padding: 1rem;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+  background: #F04B19;
+  color: #FFF;
+}
+
+/* Colors */
+.orange {
+  color: #BF360C;
+}
+.bg-orange {
+  background: #BF360C;
+}
+.white {
+  color: #FFF;
+}
+.bg-white {
+  background: #FFF;
+}
+.mono-100 {
+  color: #F5F5F5;
+}
+.bg-mono-100 {
+  background: #F5F5F5;
+}
+.mono-700 {
+  color: #424242;
+}
+.bg-mono-700 {
+  background: #424242;
+}
+.black {
+  color: #212121; /* Pure #000 is too harsh */
+}
+.bg-black {
+  background: #212121;
+}
+.text-shadow {
+  text-shadow: 1px 4px 2px rgba(0,0,0,0.15);
+}
+
+
+/* Typogrpahy */
+.h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+.h2 {
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 48em) {
+  .h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  .h2 {
+    font-size: 3.25rem;
+  }
+
+  .tagline {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .h1 {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+
+  .h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Images */
+@media screen and (min-width: 64em) {
+    .branding {
+      width: 200px;
+    }
+}
+.pattern {
+  background-image: url(img/avatar-pattern.svg);
+}
+
+/* Social Media */
+a.twitter {
+  color: #76A9EA;
+}
+a.twitter:hover {
+  color: #55ACEE;
+}
+a.dribbble {
+  color: #EA4C89;
+}
+a.dribbble:hover {
+  color: #A6285F;
+}
