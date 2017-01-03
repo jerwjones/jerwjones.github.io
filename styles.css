@@ -133,3 +133,9 @@ a.dribbble {
 a.dribbble:hover {
   color: #A6285F;
 }
+a.linkedin {
+  color: #006087;
+}
+a.linkedin:hover {
+  color:#00A0DC;
+}
