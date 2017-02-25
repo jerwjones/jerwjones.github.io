@@ -5,6 +5,10 @@ body {
 p {
   color: #4A4A4A;
 }
+a:focus, a:active, a:visited, a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 .text-sm {
   font-size: 0.75em;
 }
