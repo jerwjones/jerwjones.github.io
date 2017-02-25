@@ -36,8 +36,9 @@ p {
 .header h1 {
   color: #FFFFFF;
   font-weight: 700;
-  font-size: 2rem;
-  line-height: 2.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 10%;
   text-shadow: 0 2px 2px rgba(0,0,0,0.50);
 }
 .fit {
@@ -81,11 +82,15 @@ p {
   color: #FFFFFF;
   background: #4990E2;
 }
+@media (min-width: 20em) {
+  .header h1 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
 @media (min-width: 32em) {
   .header h1 {
     font-size: 3rem;
     line-height: 3.25rem;
-    margin-top: 7%;
   }
   .signup h2 {
     font-size: 3rem;
