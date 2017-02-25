@@ -86,6 +86,7 @@ p {
   .header h1 {
     font-size: 3rem;
     line-height: 3.25rem;
+    margin-top: 20%;
   }
   .signup h2 {
     font-size: 3rem;
