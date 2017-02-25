@@ -1,0 +1,155 @@
+body {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+}
+p {
+  color: #4A4A4A;
+}
+.text-sm {
+  font-size: 0.75em;
+}
+.mb1 {
+  margin-bottom: 1rem;
+}
+.my1 {
+  margin: 1% 0;
+}
+.py5 {
+  padding: 5% 0;
+}
+.text-white {
+  color: #FFFFFF;
+}
+.text-center {
+  text-align: center;
+}
+.bg-mono {
+  background: #DFE2EB;
+}
+.bg-navy {
+  background: #183E56;
+}
+.header {
+  background: #273F59;
+  background-image: linear-gradient(45deg, #273F59 0%, #A3BBD5 100%);
+}
+.header h1 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.25rem;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.50);
+}
+.fit {
+  max-width: 100%;
+}
+.thumb {
+  margin-top: 3rem;
+}
+.btn-gold {
+  background: #F2C912;
+  background-image: linear-gradient(45deg, #F2C912 0%, #CA6F29 100%);
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.50);
+  border-radius: 2rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.50);
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+}
+.btn-gold:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #CA6F29;
+  background-image: linear-gradient(45deg, #CA6F29 0%, #F2C912 100%);
+}
+.btn-blue {
+  background: #4978AC;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.50);
+  border-radius: 2rem;
+  color: #FFFFFF;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.50);
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+}
+.btn-blue:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #4990E2;
+}
+@media (min-width: 32em) {
+  .header h1 {
+    font-size: 3rem;
+    line-height: 3.25rem;
+    margin-top: 5%;
+  }
+  .signup h2 {
+    font-size: 3rem;
+  }
+  .btn-gold {
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+  .mb {
+    margin-bottom: 2rem;
+  }
+  .thumb {
+    margin-top: 0;
+  }
+}
+@media (min-width: 48em) {
+  .header h1 {
+    font-size: 4rem;
+    line-height: 4.25rem;
+    margin-top: 10%;
+  }
+  p {
+    font-size: 1.25em;
+  }
+  .signup h2 {
+    font-size: 4rem;
+  }
+  .btn-gold {
+    padding: 3rem;
+    font-size: 2.5rem;
+  }
+  .mb {
+    margin-bottom: 3rem;
+  }
+  .my1 {
+    margin: 2% 0;
+  }
+  .thumb {
+    margin-top: 0;
+  }
+}
+@media (min-width: 62em) {
+  .header h1 {
+    font-size: 5rem;
+    line-height: 5.5rem;
+    margin-top: 15%;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .signup h2 {
+    font-size: 6rem;
+  }
+  .btn-gold {
+    padding: 4rem;
+    font-size: 3.5rem;
+  }
+  .mb {
+    margin-bottom: 4rem;
+  }
+  .my1 {
+    margin: 3% 0;
+  }
+  .thumb {
+    margin-top: 0;
+  }
+}
