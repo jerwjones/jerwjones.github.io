@@ -1,0 +1,33 @@
+.menu {
+
+  text-align: center;
+
+  li {
+    width: 100%;
+    margin: 1em 0;
+
+    @media screen and (min-width: 52em) {
+      width: 24%;
+    }
+  }
+
+  li > a {
+    color: $gold-500;
+    padding: 0.25em 0.35em;
+    font-size: 1em;
+
+    &:hover, &:focus, .active {
+      color: $white;
+      background: $red-500;
+    }
+
+    @media screen and (min-width: 64em) {
+      font-size: 1.5em;
+    }
+  }
+
+  .active {
+    color: $white;
+    background: $red-500;
+  }
+}

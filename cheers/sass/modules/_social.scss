@@ -1,0 +1,23 @@
+.twitter {
+  fill: $mono-500;
+
+  &:hover, &:focus {
+    fill: $twitter;
+  }
+}
+
+.facebook {
+  fill: $mono-500;
+
+  &:hover, &:focus {
+    fill: $facebook;
+  }
+}
+
+.instagram {
+  fill: $mono-500;
+
+  &:hover, &:focus {
+    fill: $instagram;
+  }
+}

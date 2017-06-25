@@ -1,0 +1,23 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: $mono-700;
+}
+
+h1, h2, h3, h4 {
+  color: $mono-900;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  color: $gold-500;
+  text-transform: uppercase;
+
+  &:hover, &:focus {
+    color: $gold-900;
+  }
+}

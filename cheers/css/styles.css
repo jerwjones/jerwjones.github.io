@@ -1,0 +1,109 @@
+.white {
+  color: #FFFFFF; }
+
+.mono-50 {
+  color: #F8F9F9; }
+
+.mono-100 {
+  color: #DEE1E3; }
+
+.mono-300 {
+  color: #BEC4C8; }
+
+.mono-500 {
+  color: #97A1A7; }
+
+.mono-700 {
+  color: #5F6E78; }
+
+.mono-900 {
+  color: #374047; }
+
+.black {
+  color: #222222; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #5F6E78; }
+
+h1, h2, h3, h4 {
+  color: #374047;
+  font-weight: 400; }
+
+a {
+  text-decoration: none; }
+
+.link {
+  color: #D28410;
+  text-transform: uppercase; }
+  .link:hover, .link:focus {
+    color: #A6680C; }
+
+header .phone {
+  text-align: center; }
+  header .phone h2 {
+    margin-top: 0; }
+  @media screen and (min-width: 64em) {
+    header .phone {
+      text-align: left;
+      padding-top: 1em; } }
+header .social {
+  text-align: center; }
+  @media screen and (min-width: 64em) {
+    header .social {
+      text-align: right;
+      padding-top: 1em; } }
+header .branding {
+  text-align: center; }
+
+.menu {
+  text-align: center; }
+  .menu li {
+    width: 100%;
+    margin: 1em 0; }
+    @media screen and (min-width: 52em) {
+      .menu li {
+        width: 24%; } }
+  .menu li > a {
+    color: #D28410;
+    padding: 0.25em 0.35em;
+    font-size: 1em; }
+    .menu li > a:hover, .menu li > a:focus, .menu li > a .active {
+      color: #FFFFFF;
+      background: #E81B16; }
+    @media screen and (min-width: 64em) {
+      .menu li > a {
+        font-size: 1.5em; } }
+  .menu .active {
+    color: #FFFFFF;
+    background: #E81B16; }
+
+.twitter {
+  fill: #97A1A7; }
+  .twitter:hover, .twitter:focus {
+    fill: #00aced; }
+
+.facebook {
+  fill: #97A1A7; }
+  .facebook:hover, .facebook:focus {
+    fill: #3b5998; }
+
+.instagram {
+  fill: #97A1A7; }
+  .instagram:hover, .instagram:focus {
+    fill: #bc2a8d; }
+
+.content {
+  background: #F8F9F9; }
+  .content p {
+    line-height: 2; }
+  .content .section {
+    margin-bottom: 2em;
+    padding-bottom: 2em; }
+    @media screen and (min-width: 52em) {
+      .content .section {
+        margin-bottom: 0;
+        padding-bottom: 0; } }
+
+/*# sourceMappingURL=styles.css.map */
