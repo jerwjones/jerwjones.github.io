@@ -31,3 +31,28 @@
     background: $red-500;
   }
 }
+
+
+.sub-menu {
+
+  padding-top: 2em;
+  margin: 0 auto;
+  text-align: center;
+
+  li {
+    margin: 0 1em 2em 0;
+
+    a {
+      text-transform: uppercase;
+      background: $mono-300;
+      color: $mono-900;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+
+      &:hover, &:focus {
+        background: $mono-900;
+        color: $white;
+      }
+    }
+  }
+}

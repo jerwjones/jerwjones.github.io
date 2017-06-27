@@ -79,6 +79,22 @@ header .branding {
     color: #FFFFFF;
     background: #E81B16; }
 
+.sub-menu {
+  padding-top: 2em;
+  margin: 0 auto;
+  text-align: center; }
+  .sub-menu li {
+    margin: 0 1em 2em 0; }
+    .sub-menu li a {
+      text-transform: uppercase;
+      background: #BEC4C8;
+      color: #374047;
+      padding: 0.5em 1em;
+      border-radius: 4px; }
+      .sub-menu li a:hover, .sub-menu li a:focus {
+        background: #374047;
+        color: #FFFFFF; }
+
 .twitter {
   fill: #97A1A7; }
   .twitter:hover, .twitter:focus {
@@ -98,6 +114,9 @@ header .branding {
   background: #F8F9F9; }
   .content p {
     line-height: 2; }
+  .content .h1 {
+    color: #374047;
+    text-transform: uppercase; }
   .content .section {
     margin-bottom: 2em;
     padding-bottom: 2em; }
@@ -105,5 +124,21 @@ header .branding {
       .content .section {
         margin-bottom: 0;
         padding-bottom: 0; } }
+
+.menu-items {
+  text-align: left; }
+  .menu-items h3 {
+    color: #B81411;
+    text-transform: uppercase;
+    margin: 3em 0 0;
+    text-align: left; }
+  .menu-items p {
+    line-height: 1;
+    margin: 0.5em 0;
+    text-align: left; }
+  .menu-items hr {
+    border-top: 2px dotted #DEE1E3;
+    margin: 3em 0 0;
+    padding: 0; }
 
 /*# sourceMappingURL=styles.css.map */

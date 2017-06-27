@@ -5,6 +5,11 @@
     line-height: 2;
   }
 
+  .h1 {
+    color: $mono-900;
+    text-transform: uppercase;
+  }
+
   .section {
     margin-bottom: 2em;
     padding-bottom: 2em;
@@ -14,4 +19,29 @@
       padding-bottom: 0;
     }
   }
+}
+
+.menu-items {
+
+  text-align: left;
+
+  h3 {
+    color: $red-900;
+    text-transform: uppercase;
+    margin: 3em 0 0;
+    text-align: left;
+  }
+
+  p {
+    line-height: 1;
+    margin: 0.5em 0;
+    text-align: left;
+  }
+
+  hr {
+    border-top: 2px dotted $mono-100;
+    margin: 3em 0 0;
+    padding: 0;
+  }
+
 }
