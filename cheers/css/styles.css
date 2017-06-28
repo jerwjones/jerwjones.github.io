@@ -141,4 +141,7 @@ header .branding {
     margin: 3em 0 0;
     padding: 0; }
 
+.hero {
+  max-width: 104em; }
+
 /*# sourceMappingURL=styles.css.map */
