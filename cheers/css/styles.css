@@ -35,10 +35,16 @@ a {
   text-decoration: none; }
 
 .link {
-  color: #D28410;
+  background: #D28410;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
   text-transform: uppercase; }
   .link:hover, .link:focus {
-    color: #A6680C; }
+    background: #A6680C;
+    color: #FFFFFF;
+    text-decoration: none; }
 
 header .phone {
   text-align: center; }
@@ -68,16 +74,18 @@ header .branding {
   .menu li > a {
     color: #D28410;
     padding: 0.25em 0.35em;
-    font-size: 1em; }
+    font-size: 1.25em; }
     .menu li > a:hover, .menu li > a:focus, .menu li > a .active {
       color: #FFFFFF;
-      background: #E81B16; }
+      background: #E81B16;
+      border-bottom: 2px solid #F8F9F9; }
     @media screen and (min-width: 64em) {
       .menu li > a {
         font-size: 1.5em; } }
   .menu .active {
     color: #FFFFFF;
-    background: #E81B16; }
+    background: #E81B16;
+    border-bottom: 2px solid #B81411; }
 
 .sub-menu {
   padding-top: 2em;
@@ -125,23 +133,35 @@ header .branding {
         margin-bottom: 0;
         padding-bottom: 0; } }
 
-.menu-items {
-  text-align: left; }
-  .menu-items h3 {
-    color: #B81411;
-    text-transform: uppercase;
-    margin: 3em 0 0;
-    text-align: left; }
-  .menu-items p {
-    line-height: 1;
-    margin: 0.5em 0;
-    text-align: left; }
-  .menu-items hr {
-    border-top: 2px dotted #DEE1E3;
-    margin: 3em 0 0;
-    padding: 0; }
+.menu-items h3 {
+  color: #B81411;
+  text-transform: uppercase;
+  margin: 2em 0 0 0; }
+.menu-items p {
+  line-height: 1;
+  margin: 0.5em 0; }
+.menu-items hr {
+  border-top: 2px dotted #DEE1E3;
+  margin: 3em 0 0;
+  padding: 0; }
 
-.hero {
-  max-width: 104em; }
+.cta {
+  background: #DDA24B;
+  color: #222222;
+  padding: 0.5em 1em;
+  border-radius: 4px; }
+  .cta a {
+    font-weight: 900;
+    color: #B81411;
+    text-decoration: underline; }
+    @media screen and (min-width: 52em) {
+      .cta a {
+        color: #222222;
+        text-decoration: none; } }
+
+.icon {
+  vertical-align: middle; }
+  .icon path, .icon circle {
+    fill: #E81B16; }
 
 /*# sourceMappingURL=styles.css.map */

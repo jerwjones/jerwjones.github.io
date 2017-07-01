@@ -5,7 +5,7 @@ header {
         margin-top: 0;
       }
 
-    @media screen and (min-width: 64em) {
+    @media screen and (min-width: $media-lg) {
       text-align: left;
       padding-top: 1em;
     }
@@ -14,7 +14,7 @@ header {
   .social {
     text-align: center;
 
-    @media screen and (min-width: 64em) {
+    @media screen and (min-width: $media-lg) {
       text-align: right;
       padding-top: 1em;
     }

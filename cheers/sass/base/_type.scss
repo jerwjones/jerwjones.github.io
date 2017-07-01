@@ -14,10 +14,17 @@ a {
 }
 
 .link {
-  color: $gold-500;
+  background: $gold-500;
+  color: $white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
   text-transform: uppercase;
 
+
   &:hover, &:focus {
-    color: $gold-900;
+    background: $gold-900;
+    color: $white;
+    text-decoration: none;
   }
 }
