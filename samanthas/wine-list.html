@@ -10,9 +10,13 @@
     </head>
 
     <body>
+        <!-- SKIPPY -->
+        <a class="skippy sr-only sr-only-focusable" href="#content">
+            <span class="skippy-text">Skip to main content</span>
+        </a>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-md navbar-light bg-white">
-            <a class=" navbar-brand" href="#"><img src="img/samanthas-taproom-logo.png" alt="Samantha's Tap Room & Wood Fire Logo" width="240"></a>
+        <nav class="navbar navbar-expand-md navbar-light bg-white" aria-label="Main">
+            <a class=" navbar-brand" href="index.html"><img src="img/samanthas-taproom-logo.png" alt="Samantha's Tap Room & Wood Fire Logo" width="240"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,7 +55,7 @@
         </nav>
 
         <!-- MAIN -->
-        <main class="container py-4">
+        <main id="content" class="container py-4">
             <h1>Wine List</h1>
 
             <!-- TABS -->
@@ -68,283 +72,289 @@
             </ul>
 
             <!-- WHITE -->
-            <h2 id="white" class="mt-5">White</h2>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Quady Electra 2015 California</h3>
-                            <p><span class="badge badge-wine">Moscato</span></p>
+            <article>
+                <h2 id="white" class="mt-5">White</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Quady Electra 2015 California</h3>
+                                <p><span class="badge badge-wine">Moscato</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $7</li>
+                                <li class="list-group-item">Carafe $12</li>
+                                <li class="list-group-item">Bottle $24</li>
+                            </ul>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $7</li>
-                            <li class="list-group-item">Carafe $12</li>
-                            <li class="list-group-item">Bottle $24</li>
-                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Acrobat 2015 OR by King Estate</h3>
+                                <p><span class="badge badge-wine">Pinot Gris</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $8</li>
+                                <li class="list-group-item">Carafe $15</li>
+                                <li class="list-group-item">Bottle $29</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Stemmari 2015 Italy</h3>
+                                <p><span class="badge badge-wine">Pinot Gris</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $7</li>
+                                <li class="list-group-item">Carafe $12</li>
+                                <li class="list-group-item">Bottle $21</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Raymond 2014 Napa Valley, CA</h3>
+                                <p><span class="badge badge-wine">Sauvignon Blanc</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $9</li>
+                                <li class="list-group-item">Carafe $16</li>
+                                <li class="list-group-item">Bottle $32</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Harken 2016 Napa Valley, CA</h3>
+                                <p><span class="badge badge-wine">Chardonnay</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $9</li>
+                                <li class="list-group-item">Carafe $16</li>
+                                <li class="list-group-item">Bottle $32</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Franciscan 2015 Napa Valley, CA</h3>
+                                <p><span class="badge badge-wine">Chardonnay</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $9</li>
+                                <li class="list-group-item">Carafe $16</li>
+                                <li class="list-group-item">Bottle $32</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Azur 2013 Napa Valley, CA</h3>
+                                <p><span class="badge badge-wine">Rose</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $12</li>
+                                <li class="list-group-item">Carafe $22</li>
+                                <li class="list-group-item">Bottle $43</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Acrobat 2015 OR by King Estate</h3>
-                            <p><span class="badge badge-wine">Pinot Gris</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $8</li>
-                            <li class="list-group-item">Carafe $15</li>
-                            <li class="list-group-item">Bottle $29</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Stemmari 2015 Italy</h3>
-                            <p><span class="badge badge-wine">Pinot Gris</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $7</li>
-                            <li class="list-group-item">Carafe $12</li>
-                            <li class="list-group-item">Bottle $21</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Raymond 2014 Napa Valley, CA</h3>
-                            <p><span class="badge badge-wine">Sauvignon Blanc</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $9</li>
-                            <li class="list-group-item">Carafe $16</li>
-                            <li class="list-group-item">Bottle $32</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Harken 2016 Napa Valley, CA</h3>
-                            <p><span class="badge badge-wine">Chardonnay</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $9</li>
-                            <li class="list-group-item">Carafe $16</li>
-                            <li class="list-group-item">Bottle $32</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Franciscan 2015 Napa Valley, CA</h3>
-                            <p><span class="badge badge-wine">Chardonnay</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $9</li>
-                            <li class="list-group-item">Carafe $16</li>
-                            <li class="list-group-item">Bottle $32</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Azur 2013 Napa Valley, CA</h3>
-                            <p><span class="badge badge-wine">Rose</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $12</li>
-                            <li class="list-group-item">Carafe $22</li>
-                            <li class="list-group-item">Bottle $43</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            </article>
 
             <!-- RED -->
-            <h2 id="red" class="mt-5">Red</h2>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Sean Minor Four Bears 2015 Central Coast, CA</h3>
-                            <p><span class="badge badge-danger">Pinot Noir</span></p>
+            <article>
+                <h2 id="red" class="mt-5">Red</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Sean Minor Four Bears 2015 Central Coast, CA</h3>
+                                <p><span class="badge badge-danger">Pinot Noir</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $7</li>
+                                <li class="list-group-item">Carafe $12</li>
+                                <li class="list-group-item">Bottle $24</li>
+                            </ul>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $7</li>
-                            <li class="list-group-item">Carafe $12</li>
-                            <li class="list-group-item">Bottle $24</li>
-                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Raptor Ridge 2016 Oregon</h3>
+                                <p><span class="badge badge-danger">Pinot Gris</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $11</li>
+                                <li class="list-group-item">Carafe $20</li>
+                                <li class="list-group-item">Bottle $38</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Hahn 2015 Central Coast, CA</h3>
+                                <p><span class="badge badge-danger">GSM</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $7</li>
+                                <li class="list-group-item">Carafe $12</li>
+                                <li class="list-group-item">Bottle $24</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Altos Los Hormigas 2016 Mendoza, Argentina</h3>
+                                <p><span class="badge badge-danger">Malbec</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $10</li>
+                                <li class="list-group-item">Carafe $18</li>
+                                <li class="list-group-item">Bottle $35</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Kith and Kin 2014 Napa Valley, CA by Round Pond</h3>
+                                <p><span class="badge badge-danger">Cabernet Sauvignon</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $9</li>
+                                <li class="list-group-item">Carafe $16</li>
+                                <li class="list-group-item">Bottle $32</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Smith & Hook 2015 Central Coast, CA</h3>
+                                <p><span class="badge badge-danger">Cabernet Sauvignon</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $10</li>
+                                <li class="list-group-item">Carafe $18</li>
+                                <li class="list-group-item">Bottle $35</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Witchery Reserve 2013 Central Coast, CA</h3>
+                                <p><span class="badge badge-danger">Proprietary Blend</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $18</li>
+                                <li class="list-group-item">$33</li>
+                                <li class="list-group-item">Bottle - $65</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Artezin 2013 Mendocino, CA</h3>
+                                <p><span class="badge badge-danger">Zinfandel</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $9</li>
+                                <li class="list-group-item">$16</li>
+                                <li class="list-group-item">Bottle - $32</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Klinker Brick 2014 Napa Valley, CA</h3>
+                                <p><span class="badge badge-danger">Zinfandel</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $9</li>
+                                <li class="list-group-item">$16</li>
+                                <li class="list-group-item">Bottle - $32</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Raptor Ridge 2016 Oregon</h3>
-                            <p><span class="badge badge-danger">Pinot Gris</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $11</li>
-                            <li class="list-group-item">Carafe $20</li>
-                            <li class="list-group-item">Bottle $38</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Hahn 2015 Central Coast, CA</h3>
-                            <p><span class="badge badge-danger">GSM</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $7</li>
-                            <li class="list-group-item">Carafe $12</li>
-                            <li class="list-group-item">Bottle $24</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Altos Los Hormigas 2016 Mendoza, Argentina</h3>
-                            <p><span class="badge badge-danger">Malbec</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $10</li>
-                            <li class="list-group-item">Carafe $18</li>
-                            <li class="list-group-item">Bottle $35</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Kith and Kin 2014 Napa Valley, CA by Round Pond</h3>
-                            <p><span class="badge badge-danger">Cabernet Sauvignon</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $9</li>
-                            <li class="list-group-item">Carafe $16</li>
-                            <li class="list-group-item">Bottle $32</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Smith & Hook 2015 Central Coast, CA</h3>
-                            <p><span class="badge badge-danger">Cabernet Sauvignon</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $10</li>
-                            <li class="list-group-item">Carafe $18</li>
-                            <li class="list-group-item">Bottle $35</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Witchery Reserve 2013 Central Coast, CA</h3>
-                            <p><span class="badge badge-danger">Proprietary Blend</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $18</li>
-                            <li class="list-group-item">$33</li>
-                            <li class="list-group-item">Bottle - $65</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Artezin 2013 Mendocino, CA</h3>
-                            <p><span class="badge badge-danger">Zinfandel</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $9</li>
-                            <li class="list-group-item">$16</li>
-                            <li class="list-group-item">Bottle - $32</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Klinker Brick 2014 Napa Valley, CA</h3>
-                            <p><span class="badge badge-danger">Zinfandel</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $9</li>
-                            <li class="list-group-item">$16</li>
-                            <li class="list-group-item">Bottle - $32</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            </article>
 
             <!-- SPARKLING -->
-            <h2 id="sparkling" class="mt-5">Sparkling</h2>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Kenwood 187</h3>
-                            <p><span class="badge badge-primary">California</span></p>
+            <article>
+                <h2 id="sparkling" class="mt-5">Sparkling</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Kenwood 187</h3>
+                                <p><span class="badge badge-primary">California</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $7</li>
+                            </ul>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $7</li>
-                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Zonin Prosecco</h3>
+                                <p><span class="badge badge-primary">Italy</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $12</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Domaine Carneros</h3>
+                                <p><span class="badge badge-primary">Carneros</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Glass $14</li>
+                                <li class="list-group-item">Bottle $55</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Roederer Brut</h3>
+                                <p><span class="badge badge-primary">California</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Bottle $60</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Veuve Clicquot</h3>
+                                <p><span class="badge badge-primary">France</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Bottle $100</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Zonin Prosecco</h3>
-                            <p><span class="badge badge-primary">Italy</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $12</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Domaine Carneros</h3>
-                            <p><span class="badge badge-primary">Carneros</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Glass $14</li>
-                            <li class="list-group-item">Bottle $55</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Roederer Brut</h3>
-                            <p><span class="badge badge-primary">California</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Bottle $60</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Veuve Clicquot</h3>
-                            <p><span class="badge badge-primary">France</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Bottle $100</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            </article>
 
         </main>
 
@@ -354,20 +364,22 @@
                 <div class="row py-4">
                     <div class="col-md-4 my-4">
                         <h4 class="h5 text-white mb-4">Contact</h4>
-                        <p>
-                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="24" height="24" data-icon="Directions" class="mr-2">
-                                <defs />
-                                <path fill="#FFF" d="M12.485 0l.266.003C17.329.133 21 3.803 21 8.313c0 2.865-3.313 9.264-6.738 14.437l-.335.5a1.736 1.736 0 01-2.374.47 1.694 1.694 0 01-.48-.47l-.434-.648c-3.19-4.825-6.463-11.11-6.632-14.051L4 8.312C4 3.818 7.653.141 12.25.004L12.485 0zm.022 1.874l-.213.003c-3.548.107-6.377 2.954-6.378 6.408l.006.186c.14 2.42 3.226 8.373 6.176 12.885l.402.606.405-.614c3.105-4.764 6.178-10.753 6.178-13.036 0-3.48-2.822-6.314-6.35-6.434l-.226-.004zm-3.122 3.48c1.847-1.806 4.841-1.806 6.688 0a4.553 4.553 0 010 6.54c-1.847 1.807-4.841 1.807-6.688 0a4.553 4.553 0 010-6.54zm5.333 1.326a2.858 2.858 0 00-3.977 0 2.708 2.708 0 000 3.89 2.858 2.858 0 003.977 0 2.708 2.708 0 000-3.89z" />
-                            </svg>
-                            <a class="link-warning" href="https://www.google.com/maps/place/322+Main+St,+Little+Rock,+AR+72201/@34.7454359,-92.2733897,17z/data=!3m1!4b1!4m5!3m4!1s0x87d2bb7b108015e1:0xed87dc78d9a9d3c5!8m2!3d34.7454359!4d-92.2711957" target="_blank">322 Main Street Little Rock AR. 72201</a>
-                        </p>
-                        <p>
-                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="24" height="24" data-icon="Phone" class="mr-2">
-                                <defs />
-                                <path fill="#FFF" d="M16 0c2.21 0 4 1.679 4 3.75v16.5c0 2.071-1.79 3.75-4 3.75H8c-2.208 0-3.999-1.679-3.999-3.75v-1.486L4 18.75v-.014L4.001 3.75c0-2.071 1.79-3.75 4-3.75h8zm2.4 19.499H5.6l.001.751c0 1.243 1.074 2.25 2.4 2.25h8c1.325 0 2.4-1.007 2.4-2.25l-.001-.751zM16 1.5H8c-1.325 0-2.399 1.007-2.399 2.25L5.6 17.999h12.8V3.75c0-1.243-1.074-2.25-2.4-2.25z" />
-                            </svg>
-                            <a class="link-warning" href="tel:15013798019">501-379-8019</a>
-                        </p>
+                        <address>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="24" height="24" data-icon="Directions" class="mr-2">
+                                    <defs />
+                                    <path fill="#FFF" d="M12.485 0l.266.003C17.329.133 21 3.803 21 8.313c0 2.865-3.313 9.264-6.738 14.437l-.335.5a1.736 1.736 0 01-2.374.47 1.694 1.694 0 01-.48-.47l-.434-.648c-3.19-4.825-6.463-11.11-6.632-14.051L4 8.312C4 3.818 7.653.141 12.25.004L12.485 0zm.022 1.874l-.213.003c-3.548.107-6.377 2.954-6.378 6.408l.006.186c.14 2.42 3.226 8.373 6.176 12.885l.402.606.405-.614c3.105-4.764 6.178-10.753 6.178-13.036 0-3.48-2.822-6.314-6.35-6.434l-.226-.004zm-3.122 3.48c1.847-1.806 4.841-1.806 6.688 0a4.553 4.553 0 010 6.54c-1.847 1.807-4.841 1.807-6.688 0a4.553 4.553 0 010-6.54zm5.333 1.326a2.858 2.858 0 00-3.977 0 2.708 2.708 0 000 3.89 2.858 2.858 0 003.977 0 2.708 2.708 0 000-3.89z" />
+                                </svg>
+                                <a class="link-warning" href="https://www.google.com/maps/place/322+Main+St,+Little+Rock,+AR+72201/@34.7454359,-92.2733897,17z/data=!3m1!4b1!4m5!3m4!1s0x87d2bb7b108015e1:0xed87dc78d9a9d3c5!8m2!3d34.7454359!4d-92.2711957" target="_blank">322 Main Street Little Rock AR. 72201</a>
+                            </p>
+                            <p>
+                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="24" height="24" data-icon="Phone" class="mr-2">
+                                    <defs />
+                                    <path fill="#FFF" d="M16 0c2.21 0 4 1.679 4 3.75v16.5c0 2.071-1.79 3.75-4 3.75H8c-2.208 0-3.999-1.679-3.999-3.75v-1.486L4 18.75v-.014L4.001 3.75c0-2.071 1.79-3.75 4-3.75h8zm2.4 19.499H5.6l.001.751c0 1.243 1.074 2.25 2.4 2.25h8c1.325 0 2.4-1.007 2.4-2.25l-.001-.751zM16 1.5H8c-1.325 0-2.399 1.007-2.399 2.25L5.6 17.999h12.8V3.75c0-1.243-1.074-2.25-2.4-2.25z" />
+                                </svg>
+                                <a class="link-warning" href="tel:15013798019">501-379-8019</a>
+                            </p>
+                        </address>
                     </div>
                     <div class="col-md-4 my-4">
                         <h4 class="h5 text-white mb-4">Kitchen Hours</h4>

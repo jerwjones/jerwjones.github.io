@@ -10,9 +10,13 @@
     </head>
 
     <body>
+        <!-- SKIPPY -->
+        <a class="skippy sr-only sr-only-focusable" href="#content">
+            <span class="skippy-text">Skip to main content</span>
+        </a>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-md navbar-light bg-white">
-            <a class=" navbar-brand" href="#"><img src="img/samanthas-taproom-logo.png" alt="Samantha's Tap Room & Wood Fire Logo" width="240"></a>
+        <nav class="navbar navbar-expand-md navbar-light bg-white" aria-label="Main">
+            <a class=" navbar-brand" href="index.html"><img src="img/samanthas-taproom-logo.png" alt="Samantha's Tap Room & Wood Fire Logo" width="240"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,7 +55,7 @@
         </nav>
 
         <!-- MAIN -->
-        <main class="container py-4">
+        <main id="content" class="container py-4">
             <h1>Lunch Menu</h1>
             <p class="lead">Split Plate Charge <span class="badge badge-secondary">$3</span></p>
 
@@ -81,674 +85,688 @@
             </ul>
 
             <!-- COMMUNAL -->
-            <h2 id="communal" class="mt-5">Communal</h2>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Grilled Seasonal Shishito Peppers</h3>
+            <article>
+                <h2 id="communal" class="mt-5">Communal</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Grilled Seasonal Shishito Peppers</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$9</h3>
+                                    </div>
                                 </div>
-                                <div class="col-4 text-right">
-                                    <h3>$9</h3>
-                                </div>
+                                <p>with sweet sesame soy glaze</p>
                             </div>
-                            <p>with sweet sesame soy glaze</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Parmesan Salsa</h3>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Parmesan Salsa</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$10</h3>
+                                    </div>
                                 </div>
-                                <div class="col-4 text-right">
-                                    <h3>$10</h3>
-                                </div>
+                                <p>with grilled baguette</p>
                             </div>
-                            <p>with grilled baguette</p>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Surf &amp; Turf Queso Blanco</h3>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Surf &amp; Turf Queso Blanco</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$12</h3>
+                                    </div>
                                 </div>
-                                <div class="col-4 text-right">
-                                    <h3>$12</h3>
-                                </div>
+                                <p>grilled steak & shrimp with pico de gallo</p>
                             </div>
-                            <p>grilled steak & shrimp with pico de gallo</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Queso Blanco & Salsa</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$10</h3>
+                                    </div>
+                                </div>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Roasted Cremini Mushrooms</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$10</h3>
+                                    </div>
+                                </div>
+                                <p>with bacon & parmesan</p>
+                                <p><span class="badge badge-success">Gluten Free</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Spicy, Smokey &amp; Sweet</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$10</h3>
+                                    </div>
+                                </div>
+                                <p>grilled andouille, smoked gouda, stone ground mustard, bread & butter pickles</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>House Made Pork Skins</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$6</h3>
+                                    </div>
+                                </div>
+                                <p>cooked to order with latin spice rub</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Queso Blanco & Salsa</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$10</h3>
-                                </div>
-                            </div>
-                            <p>&nbsp;</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Roasted Cremini Mushrooms</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$10</h3>
-                                </div>
-                            </div>
-                            <p>with bacon & parmesan</p>
-                            <p><span class="badge badge-success">Gluten Free</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Spicy, Smokey &amp; Sweet</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$10</h3>
-                                </div>
-                            </div>
-                            <p>grilled andouille, smoked gouda, stone ground mustard, bread & butter pickles</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>House Made Pork Skins</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$6</h3>
-                                </div>
-                            </div>
-                            <p>cooked to order with latin spice rub</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </article>
 
             <!-- SALADS -->
-            <h2 id="salads" class="mt-5">Salads</h2>
-            <div class="row mb-2">
-                <div class="col-lg-6">
-                    <h3 class="h5">Additions</h3>
-                    <p>
-                        <span class="badge badge-secondary">Grilled Chicken $5</span>
-                        <span class="badge badge-secondary">Grilled Salmon $8</span>
-                        <span class="badge badge-secondary">Grilled Steak $7</span>
-                        <span class="badge badge-secondary">Grilled Shrimp $6</span>
-                        <span class="badge badge-secondary">Ahi Tuna $8</span>
-                    </p>
+            <article>
+                <h2 id="salads" class="mt-5">Salads</h2>
+                <div class="row mb-2">
+                    <div class="col-lg-6">
+                        <h3 class="h5">Additions</h3>
+                        <p>
+                            <span class="badge badge-secondary">Grilled Chicken $5</span>
+                            <span class="badge badge-secondary">Grilled Salmon $8</span>
+                            <span class="badge badge-secondary">Grilled Steak $7</span>
+                            <span class="badge badge-secondary">Grilled Shrimp $6</span>
+                            <span class="badge badge-secondary">Ahi Tuna $8</span>
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="h5">Dressings</h3>
+                        <p>
+                            <span class="badge badge-secondary">Pesto Buttermilk</span>
+                            <span class="badge badge-secondary">Red Wine &amp; Oregano Vinaigrette</span>
+                            <span class="badge badge-secondary">Ginger</span>
+                            <span class="badge badge-secondary">Buttermilk Ranch</span>
+                            <span class="badge badge-secondary">Creamy Bell Pepper</span>
+                            <span class="badge badge-secondary">1000 Island</span>
+                            <span class="badge badge-secondary">Bleu Cheese</span>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <h3 class="h5">Dressings</h3>
-                    <p>
-                        <span class="badge badge-secondary">Pesto Buttermilk</span>
-                        <span class="badge badge-secondary">Red Wine &amp; Oregano Vinaigrette</span>
-                        <span class="badge badge-secondary">Ginger</span>
-                        <span class="badge badge-secondary">Buttermilk Ranch</span>
-                        <span class="badge badge-secondary">Creamy Bell Pepper</span>
-                        <span class="badge badge-secondary">1000 Island</span>
-                        <span class="badge badge-secondary">Bleu Cheese</span>
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Simple</h3>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Simple</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$5</h3>
+                                    </div>
                                 </div>
-                                <div class="col-4 text-right">
-                                    <h3>$5</h3>
-                                </div>
+                                <p>house greens, tomatoes, cucumbers, carrots & red onion</p>
                             </div>
-                            <p>house greens, tomatoes, cucumbers, carrots & red onion</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>House Caesar</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$11</h3>
+                                    </div>
+                                </div>
+                                <p>Parmesan Reggiano, cracked pepper & garlic croutons</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Warm Spinach</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$11</h3>
+                                    </div>
+                                </div>
+                                <p>mushrooms, pickled onion, & parmesan tossed in warm bacon vinaigrette</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Greek</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$11</h3>
+                                    </div>
+                                </div>
+                                <p>house greens, Kalamata olives, feta cheese, pepperoncini rings, sliced red onion, artichoke hearts & red wine oregano vinaigrette</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Asian</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$11</h3>
+                                    </div>
+                                </div>
+                                <p>house greens, red bell pepper, cilantro, cucumber, carrot, toasted sesame seeds, crisp wontons & ginger dressing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Chopped Salmon</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$13</h3>
+                                    </div>
+                                </div>
+                                <p>arugula, couscous, dried cranberries, sunflower seeds, feta cheese, dried corn & pesto buttermilk dressing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>American Wedge Salad</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$11</h3>
+                                    </div>
+                                </div>
+                                <p>baby iceberg with tomato, red onion, bacon, house-made bleu cheese, and fresh cracked pepper</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Shrimp Louie</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$14</h3>
+                                    </div>
+                                </div>
+                                <p>baby iceberg wedge with tomato, cucumber</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>House Caesar</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$11</h3>
-                                </div>
-                            </div>
-                            <p>Parmesan Reggiano, cracked pepper & garlic croutons</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Warm Spinach</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$11</h3>
-                                </div>
-                            </div>
-                            <p>mushrooms, pickled onion, & parmesan tossed in warm bacon vinaigrette</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Greek</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$11</h3>
-                                </div>
-                            </div>
-                            <p>house greens, Kalamata olives, feta cheese, pepperoncini rings, sliced red onion, artichoke hearts & red wine oregano vinaigrette</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Asian</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$11</h3>
-                                </div>
-                            </div>
-                            <p>house greens, red bell pepper, cilantro, cucumber, carrot, toasted sesame seeds, crisp wontons & ginger dressing</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Chopped Salmon</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$13</h3>
-                                </div>
-                            </div>
-                            <p>arugula, couscous, dried cranberries, sunflower seeds, feta cheese, dried corn & pesto buttermilk dressing</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>American Wedge Salad</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$11</h3>
-                                </div>
-                            </div>
-                            <p>baby iceberg with tomato, red onion, bacon, house-made bleu cheese, and fresh cracked pepper</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Shrimp Louie</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$14</h3>
-                                </div>
-                            </div>
-                            <p>baby iceberg wedge with tomato, cucumber</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </article>
 
             <!-- SOUPS -->
-            <h2 id="soups" class="mt-5">Soups</h2>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Chicken Andouille & Seafood Gumbo</h3>
+            <article>
+                <h2 id="soups" class="mt-5">Soups</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Chicken Andouille & Seafood Gumbo</h3>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cup - $5</li>
+                                <li class="list-group-item">Bowl - $8</li>
+                            </ul>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Cup - $5</li>
-                            <li class="list-group-item">Bowl - $8</li>
-                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Soup of the Day</h3>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cup - $5</li>
+                                <li class="list-group-item">Bowl - $8</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Soup of the Day</h3>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Cup - $5</li>
-                            <li class="list-group-item">Bowl - $8</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            </article>
 
             <!-- SANDWICHES -->
-            <h2 id="sandwiches" class="mt-5">Sandwiches &amp; Tacos</h2>
-            <p class="lead">Comes with choice of french fries or chips.</p>
-            <div class="row mb-2">
-                <div class="col-lg-6">
-                    <h3 class="h5">Additions</h3>
-                    <p><span class="badge badge-dark">Bacon $2</span></p>
+            <article>
+                <h2 id="sandwiches" class="mt-5">Sandwiches &amp; Tacos</h2>
+                <p class="lead">Comes with choice of french fries or chips.</p>
+                <div class="row mb-2">
+                    <div class="col-lg-6">
+                        <h3 class="h5">Additions</h3>
+                        <p><span class="badge badge-dark">Bacon $2</span></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="h5">Cheeses</h3>
+                        <p><span class="badge badge-dark">Gruyere</span> <span class="badge badge-dark">American</span> <span class="badge badge-dark">Pepper Jack</span> <span class="badge badge-dark">Provolone</span> <span class="badge badge-dark">Swiss</span></p>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <h3 class="h5">Cheeses</h3>
-                    <p><span class="badge badge-dark">Gruyere</span> <span class="badge badge-dark">American</span> <span class="badge badge-dark">Pepper Jack</span> <span class="badge badge-dark">Provolone</span> <span class="badge badge-dark">Swiss</span></p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Veggie Burger</h3>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Veggie Burger</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$9.50</h3>
+                                    </div>
                                 </div>
-                                <div class="col-4 text-right">
-                                    <h3>$9.50</h3>
-                                </div>
+                                <p>lettuce, tomato, onion, pickle, mustard & hatch chili aioli on a brioche bun</p>
                             </div>
-                            <p>lettuce, tomato, onion, pickle, mustard & hatch chili aioli on a brioche bun</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Cuban</h3>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Cuban</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$10</h3>
+                                    </div>
                                 </div>
-                                <div class="col-4 text-right">
-                                    <h3>$10</h3>
-                                </div>
+                                <p>warm pressed with roasted pork, ham, Swiss, pickle & mustard on sliced ciabatta</p>
                             </div>
-                            <p>warm pressed with roasted pork, ham, Swiss, pickle & mustard on sliced ciabatta</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Coursey's Smoked Ham &amp; Gruyere Cheese</h3>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Coursey's Smoked Ham &amp; Gruyere Cheese</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$11.50</h3>
+                                    </div>
                                 </div>
-                                <div class="col-4 text-right">
-                                    <h3>$11.50</h3>
-                                </div>
+                                <p>warm pressed with dijon mustard on sliced ciabatta</p>
                             </div>
-                            <p>warm pressed with dijon mustard on sliced ciabatta</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Grilled Portabella Sandwich</h3>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Grilled Portabella Sandwich</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$9.50</h3>
+                                    </div>
                                 </div>
-                                <div class="col-4 text-right">
-                                    <h3>$9.50</h3>
-                                </div>
+                                <p>with spinach, gruyere, tomato & hatch chili aioli on a brioche bun</p>
                             </div>
-                            <p>with spinach, gruyere, tomato & hatch chili aioli on a brioche bun</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>TBLT</h3>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>TBLT</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$9</h3>
+                                    </div>
                                 </div>
-                                <div class="col-4 text-right">
-                                    <h3>$9</h3>
-                                </div>
+                                <p>warm pressed with turkey, bacon, cranberry aioli, lettuce & tomato on sliced ciabatta</p>
                             </div>
-                            <p>warm pressed with turkey, bacon, cranberry aioli, lettuce & tomato on sliced ciabatta</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>1/2lb. Cheeseburger</h3>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>1/2lb. Cheeseburger</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$10</h3>
+                                    </div>
                                 </div>
-                                <div class="col-4 text-right">
-                                    <h3>$10</h3>
-                                </div>
+                                <p>lettuce, tomato, onion, pickle, mustard, & hatch chili aioli on a brioche bun</p>
                             </div>
-                            <p>lettuce, tomato, onion, pickle, mustard, & hatch chili aioli on a brioche bun</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Grilled Chicken Melt</h3>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Grilled Chicken Melt</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$10</h3>
+                                    </div>
                                 </div>
-                                <div class="col-4 text-right">
-                                    <h3>$10</h3>
-                                </div>
+                                <p>American cheese, bacon, lettuce, tomato & hatch chili aioli on a brioche bun</p>
                             </div>
-                            <p>American cheese, bacon, lettuce, tomato & hatch chili aioli on a brioche bun</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Blackened Grouper</h3>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Blackened Grouper</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$15</h3>
+                                    </div>
                                 </div>
-                                <div class="col-4 text-right">
-                                    <h3>$15</h3>
-                                </div>
+                                <p>lettuce, tomato, pickle, & remoulade on Leidenheimer bread</p>
                             </div>
-                            <p>lettuce, tomato, pickle, & remoulade on Leidenheimer bread</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Wood Grilled Tacos</h3>
+                                <p>three tacos topped with pasilla & ancho chile salsa and salpicon</p>
+                                <p><span class="badge badge-success">Gluten Free</span></p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Grouper - $13</li>
+                                <li class="list-group-item">Skirt Steak - $12</li>
+                                <li class="list-group-item">Chicken - $10</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Wood Grilled Tacos</h3>
-                            <p>three tacos topped with pasilla & ancho chile salsa and salpicon</p>
-                            <p><span class="badge badge-success">Gluten Free</span></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Grouper - $13</li>
-                            <li class="list-group-item">Skirt Steak - $12</li>
-                            <li class="list-group-item">Chicken - $10</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            </article>
 
             <!-- GRILL -->
-            <h2 id="grill" class="mt-5">Grill</h2>
-            <p class="lead">Not responsible for well-done steaks</p>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>NY Strip Loin Filet</h3>
+            <article>
+                <h2 id="grill" class="mt-5">Grill</h2>
+                <p class="lead">Not responsible for well-done steaks</p>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>NY Strip Loin Filet</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$22</h3>
+                                    </div>
                                 </div>
-                                <div class="col-4 text-right">
-                                    <h3>$22</h3>
-                                </div>
+                                <p>with green peppercorn demi glaze</p>
+                                <p><span class="badge badge-success">Gluten Free</span></p>
                             </div>
-                            <p>with green peppercorn demi glaze</p>
-                            <p><span class="badge badge-success">Gluten Free</span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Bacon Wrapped Quail Breast</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$15</h3>
+                                    </div>
+                                </div>
+                                <p>jalapeño-stuffed with black cherry demi glace</p>
+                                <p><span class="badge badge-success">Gluten Free</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Grilled Gulf Shrimp</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$14</h3>
+                                    </div>
+                                </div>
+                                <p>with lemon & oregano</p>
+                                <p><span class="badge badge-success">Gluten Free</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Marinated Grilled Chicken Breast</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$14</h3>
+                                    </div>
+                                </div>
+                                <p>with mushrooms, white wine & fried capers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <h3>Sockeye Salmon</h3>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <h3>$14</h3>
+                                    </div>
+                                </div>
+                                <p>"wild-caught" with mustard, tarragon & chive sauce</p>
+                                <p><span class="badge badge-success">Gluten Free</span></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Bacon Wrapped Quail Breast</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$15</h3>
-                                </div>
-                            </div>
-                            <p>jalapeño-stuffed with black cherry demi glace</p>
-                            <p><span class="badge badge-success">Gluten Free</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Grilled Gulf Shrimp</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$14</h3>
-                                </div>
-                            </div>
-                            <p>with lemon & oregano</p>
-                            <p><span class="badge badge-success">Gluten Free</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Marinated Grilled Chicken Breast</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$14</h3>
-                                </div>
-                            </div>
-                            <p>with mushrooms, white wine & fried capers</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-8">
-                                    <h3>Sockeye Salmon</h3>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h3>$14</h3>
-                                </div>
-                            </div>
-                            <p>"wild-caught" with mustard, tarragon & chive sauce</p>
-                            <p><span class="badge badge-success">Gluten Free</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </article>
 
             <!-- SIDES -->
-            <h2 id="sides" class="mt-5">Sides</h2>
-            <p class="lead">All Sides <span class="badge badge-secondary">$4</span></p>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>French Fries</h3>
+            <article>
+                <h2 id="sides" class="mt-5">Sides</h2>
+                <p class="lead">All Sides <span class="badge badge-secondary">$4</span></p>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>French Fries</h3>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Dirty Rice</h3>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Dirty Rice</h3>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Chipotle Mac &amp; Cheese</h3>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Chipotle Mac &amp; Cheese</h3>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Cucumber Onion Salad</h3>
-                            <p><span class="badge badge-success">Gluten Free</span></p>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Cucumber Onion Salad</h3>
+                                <p><span class="badge badge-success">Gluten Free</span></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Prosciutto-Wrapped Asparagus</h3>
-                            <p><span class="badge badge-success">Gluten Free</span></p>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Prosciutto-Wrapped Asparagus</h3>
+                                <p><span class="badge badge-success">Gluten Free</span></p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Sautéed Sugar Snap Peas</h3>
-                            <p><span class="badge badge-success">Gluten Free</span></p>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Sautéed Sugar Snap Peas</h3>
+                                <p><span class="badge badge-success">Gluten Free</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Creamy Asiago Cheese Grits</h3>
+                                <p><span class="badge badge-success">Gluten Free</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Vinegar Braised Collard Greens</h3>
+                                <p><span class="badge badge-success">Gluten Free</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Purple Hull Peas</h3>
+                                <p><span class="badge badge-success">Gluten Free</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Sour Cream Scallion Mashed Potatoes</h3>
+                                <p><span class="badge badge-success">Gluten Free</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Grilled Baguette</h3>
+                                <p>with Compound Butter</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Creamy Asiago Cheese Grits</h3>
-                            <p><span class="badge badge-success">Gluten Free</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Vinegar Braised Collard Greens</h3>
-                            <p><span class="badge badge-success">Gluten Free</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Purple Hull Peas</h3>
-                            <p><span class="badge badge-success">Gluten Free</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Sour Cream Scallion Mashed Potatoes</h3>
-                            <p><span class="badge badge-success">Gluten Free</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Grilled Baguette</h3>
-                            <p>with Compound Butter</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </article>
 
             <!-- DRINKS -->
-            <h2 id="drinks" class="mt-5">Drinks</h2>
-            <p class="lead">All Drinks <span class="badge badge-secondary">$2.50</span></p>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Coke</h3>
+            <article>
+                <h2 id="drinks" class="mt-5">Drinks</h2>
+                <p class="lead">All Drinks <span class="badge badge-secondary">$2.50</span></p>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Coke</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Diet Coke</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Sprite</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Crystal Light Lemonade</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Fresh-Brewed Coffee</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Fresh-Brewed Iced Tea</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-menu">
+                            <div class="card-body">
+                                <h3>Fresh-Brewed Passion Fruit Iced Tea</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Diet Coke</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Sprite</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Crystal Light Lemonade</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Fresh-Brewed Coffee</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Fresh-Brewed Iced Tea</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-menu">
-                        <div class="card-body">
-                            <h3>Fresh-Brewed Passion Fruit Iced Tea</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </article>
         </main>
 
         <!-- FOOTER -->

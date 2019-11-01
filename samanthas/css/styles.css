@@ -7043,6 +7043,14 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #E0E0E0; } }
 
+.skippy {
+  display: block;
+  padding: 1em;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #3E2723;
+  outline: 0; }
+
 footer svg {
   fill: #FFFFFF; }
   footer svg:hover, footer svg:active {
